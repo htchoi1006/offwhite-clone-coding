@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+
+
+body{
+    width: 100%;
+}
+
+#category-name-and-number-of-products{
+    margin-top: 250px;
+    display: flex;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+    padding-right: 50px;
+}
+
+#category-name-and-number-of-products-h1{
+    width: 1380px;
+}
+
+#category-name-and-number-of-products-h1 > h1{
+    text-align: left;
+    /*width: 58%;*/
+    max-width: 90%;
+    font-size: 14px;
+    margin: 0;
+}
+
+#category-name-and-number-of-products-p > p{
+    text-align: left;
+    padding-top: 0px;
+    /*padding-left: 850px;*/
+    font-size: 14px;
+}
+
+#products{
+    margin-right: 50px;
+}
+
+#products-div{
+    display: flex;
+    /*width: 100%;*/
+    margin-top: 100px;
+    padding-right: 450px;
+}
+
+#products-big-photo{
+    width: 700px;
+    margin-left: 25px;
+}
+
+#products-big-photo > picture > img{
+    /*width: 500px;*/
+    max-width: 100%;
+    height: auto;
+    /*margin-left: 20px;*/
+}
+
+/*----------------------------------------------------------*/
+
+
+#products-div-2{
+    /*width: 100%;*/
+    /*width: 1600px;*/
+    display: flex;
+    margin-top: 60px;
+    padding-right: 200px;
+}
+
+#products-small-photo{
+    width: 400px;
+    margin-left: 25px;
+}
+
+#products-small-photo > picture > img{
+    /*width: 290px;*/
+    max-width: 100%;
+    height: auto;
+    /*margin-left: 20px;*/
+}
+
+
+#products-name-and-price{
+    /*margin-left: 20px;*/
+    text-align: left;
+}
+
+#products-name-and-price > h3{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#products-name-and-price > span{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+#products-name-and-price-small{
+    /*margin-left: 20px;*/
+}
+
+#products-name-and-price-small > h3{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+#products-name-and-price-small > span{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
