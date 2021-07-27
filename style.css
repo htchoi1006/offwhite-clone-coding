@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 
 body{
@@ -7,31 +8,43 @@ body{
 }
 
 #category-name-and-number-of-products{
+    /*width: 1450px;*/
+    width: 80%;
     margin-top: 250px;
     display: flex;
-    font-family: 'IBM Plex Sans', sans-serif;
+    /*font-family: 'IBM Plex Sans', sans-serif;*/
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
     font-weight: 400;
     margin-left: 25px;
     padding-right: 50px;
 }
 
 #category-name-and-number-of-products-h1{
-    width: 1380px;
+    /*width: 1380px;*/
+    /*max-width: 100%;*/
+    width: 80%;
 }
 
 #category-name-and-number-of-products-h1 > h1{
     text-align: left;
     /*width: 58%;*/
-    max-width: 90%;
+    /*max-width: 100%;*/
     font-size: 14px;
     margin: 0;
+    margin-top: 10px;
+}
+
+#category-name-and-number-of-products-p{
+    width: 30px;
+    /*max-width: 100%;*/
 }
 
 #category-name-and-number-of-products-p > p{
     text-align: left;
     padding-top: 0px;
-    /*padding-left: 850px;*/
     font-size: 14px;
+    padding-right: 80px;
 }
 
 #products{
@@ -40,21 +53,22 @@ body{
 
 #products-div{
     display: flex;
-    /*width: 100%;*/
+    /*width: 1400px;*/
     margin-top: 100px;
-    padding-right: 450px;
+    /*padding-right: 450px;*/
 }
 
 #products-big-photo{
     width: 700px;
-    margin-left: 25px;
+    text-align: left;
+    /*margin-left: 25px;*/
 }
 
 #products-big-photo > picture > img{
-    /*width: 500px;*/
-    max-width: 100%;
+    /*max-width: 100%;*/
+    width: 30vw;
     height: auto;
-    /*margin-left: 20px;*/
+    margin-left: 25px;
 }
 
 /*----------------------------------------------------------*/
