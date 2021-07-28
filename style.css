@@ -4,14 +4,201 @@
 
 
 body{
-    /*width: 100%;*/
+    width: 100%;
     margin-left: 1.2rem;
+    margin-right: 0;
+}
+
+#products-name-and-price > h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#products-name-and-price > span {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+#products-name-and-price-small > h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#products-name-and-price-small > span {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 30px;
 }
 
 
 
 
-@media screen and (orientation:landscape) and (min-width: 1024px) {
+
+
+
+
+
+@media screen and (max-width: 767px){
+    #category-name-and-number-of-products{
+        width: 96vw;
+        margin-top: 250px;
+        display: flex;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 15px;
+        font-weight: 400;
+        /*margin-left: 25px;*/
+        /*padding-right: 50px;*/
+        justify-content: space-between;
+    }
+
+    #category-name-and-number-of-products-h1 > h1{
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 13px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #category-name-and-number-of-products-p{
+        width: 50px;
+        /*max-width: 100%;*/
+    }
+
+    #category-name-and-number-of-products-p > p{
+        text-align: left;
+        padding-top: 0px;
+        font-size: 13px;
+        padding-right: 80px;
+    }
+
+    #products-big-photo > picture > img{
+        /*max-width: 100%;*/
+        width: 95vw;
+        height: auto;
+    }
+
+    #products-small-photo{
+        margin-right: 1.2rem;
+    }
+
+    #products-small-photo > picture > img{
+        width: 46vw;
+        height: auto;
+    }
+
+
+    #products-div-2-mobile{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+
+}
+
+/*=======================================================================================*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #category-name-and-number-of-products{
+        width: 96vw;
+        margin-top: 250px;
+        display: flex;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 15px;
+        font-weight: 400;
+        /*margin-left: 25px;*/
+        /*padding-right: 50px;*/
+        justify-content: space-between;
+    }
+
+
+    #category-name-and-number-of-products-h1 > h1{
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 13px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #category-name-and-number-of-products-p{
+        width: 50px;
+        /*max-width: 100%;*/
+    }
+
+    #category-name-and-number-of-products-p > p{
+        text-align: left;
+        padding-top: 0px;
+        font-size: 13px;
+        padding-right: 80px;
+    }
+
+    /*#products{*/
+    /*    margin-right: 50px;*/
+    /*}*/
+
+    #products-div{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    #products-big-photo{
+        /*width: 700px;*/
+        /*margin-left: 25px;*/
+        margin-right: 1.2rem;
+    }
+
+    #products-big-photo > picture > img{
+        /*max-width: 100%;*/
+        width: 47vw;
+        height: auto;
+    }
+
+    /*----------------------------------------------------------*/
+
+    #section-2{
+        margin-top: 5rem;
+    }
+
+    #products-div-2{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+
+    #products-small-photo{
+        margin-right: 1.2rem;
+    }
+
+    #products-small-photo > picture > img{
+        width: 22.6vw;
+        height: auto;
+    }
+
+    #products-div-2-mobile{
+        display: flex;
+    }
+
+
+
+}
+
+
+
+/*===============================================================================*/
+
+@media screen and (min-width: 1024px) {
     #category-name-and-number-of-products {
         /*width: 60%;*/
         width: 60vw;
@@ -25,21 +212,14 @@ body{
         justify-content: space-between;
     }
 
-    /*#category-name-and-number-of-products-h1{*/
-    /*width: 80%;*/
-    /*}*/
     #category-name-and-number-of-products-h1 > h1 {
-        /*text-align: left;*/
-        /*width: 58%;*/
-        /*max-width: 100%;*/
         font-size: 14px;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     #category-name-and-number-of-products-p {
         width: 30px;
-        /*max-width: 100%;*/
     }
 
     #category-name-and-number-of-products-p > p {
@@ -91,191 +271,22 @@ body{
 
     #products-small-photo > picture > img {
         /*max-width: 100%;*/
-        width: 17.8vw;
+        width: 17.6vw;
         height: auto;
         /*margin-left: 20px;*/
     }
 
-
-    #products-name-and-price {
-        /*margin-left: 20px;*/
-        text-align: left;
-    }
-
-    #products-name-and-price > h3 {
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 18px;
-    }
-
-    #products-name-and-price > span {
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 30px;
+    #products-div-2-mobile{
+        display: flex;
     }
 
 
-    #products-name-and-price-small {
-        /*margin-left: 20px;*/
-    }
-
-    #products-name-and-price-small > h3 {
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 17px;
-    }
-
-    #products-name-and-price-small > span {
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
 }
 
 
 
-/*=======================================================================================*/
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    body{
-        color: red;
-    }
 
 
-    #category-name-and-number-of-products{
-        width: 96vw;
-        margin-top: 250px;
-        display: flex;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 15px;
-        font-weight: 400;
-        /*margin-left: 25px;*/
-        /*padding-right: 50px;*/
-        justify-content: space-between;
-    }
-
-    /*#category-name-and-number-of-products-h1{*/
-    /*width: 80%;*/
-    /*}*/
-
-    #category-name-and-number-of-products-h1 > h1{
-        /*text-align: left;*/
-        /*width: 58%;*/
-        /*max-width: 100%;*/
-        font-size: 14px;
-        margin: 0;
-        margin-top: 10px;
-    }
-
-    #category-name-and-number-of-products-p{
-        width: 50px;
-        /*max-width: 100%;*/
-    }
-
-    #category-name-and-number-of-products-p > p{
-        text-align: left;
-        padding-top: 0px;
-        font-size: 14px;
-        padding-right: 80px;
-    }
-
-    /*#products{*/
-    /*    margin-right: 50px;*/
-    /*}*/
-
-    #products-div{
-        display: flex;
-        margin-top: 100px;
-    }
-
-    #products-big-photo{
-        /*width: 700px;*/
-        /*margin-left: 25px;*/
-        margin-right: 1.2rem;
-    }
-
-    #products-big-photo > picture > img{
-        /*max-width: 100%;*/
-        width: 47vw;
-        height: auto;
-    }
-
-    /*----------------------------------------------------------*/
-
-    #section-2{
-        margin-top: 8rem;
-    }
-
-    #products-div-2{
-        /*width: 100%;*/
-        /*width: 1600px;*/
-        display: flex;
-        /*margin-top: 40px;*/
-        /*padding-right: 200px;*/
-    }
-
-    #products-small-photo{
-        /*width: 400px;*/
-        /*margin-left: 25px;*/
-        margin-right: 1.2rem;
-    }
-
-    #products-small-photo > picture > img{
-        /*max-width: 100%;*/
-        width: 17.8vw;
-        height: auto;
-        /*margin-left: 20px;*/
-    }
 
 
-    #products-name-and-price{
-        /*margin-left: 20px;*/
-        text-align: left;
-    }
 
-    #products-name-and-price > h3{
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 18px;
-    }
-
-    #products-name-and-price > span{
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
-
-
-    #products-name-and-price-small{
-        /*margin-left: 20px;*/
-    }
-
-    #products-name-and-price-small > h3{
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 17px;
-    }
-
-    #products-name-and-price-small > span{
-        font-family: 'Nanum Myeongjo', serif;
-        font-weight: 700;
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
-}
-
-
-/*===============================================================================*/
-@media screen and (max-width: 767px){
-
-}
