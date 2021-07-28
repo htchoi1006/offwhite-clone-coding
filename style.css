@@ -4,6 +4,7 @@
 
 
 body{
+<<<<<<< HEAD
     width: 100%;
     margin-left: 1.2rem;
     margin-right: 0;
@@ -45,8 +46,79 @@ body{
 
 
 
+=======
+    /*width: 100%;*/
+    margin-left: 1.2rem;
+}
 
 
+
+
+@media screen and (orientation:landscape) and (min-width: 1024px) {
+    #category-name-and-number-of-products {
+        /*width: 60%;*/
+        width: 60vw;
+        margin-top: 250px;
+        display: flex;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 15px;
+        font-weight: 400;
+        /*margin-left: 25px;*/
+        /*padding-right: 50px;*/
+        justify-content: space-between;
+    }
+
+    /*#category-name-and-number-of-products-h1{*/
+    /*width: 80%;*/
+    /*}*/
+    #category-name-and-number-of-products-h1 > h1 {
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 14px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #category-name-and-number-of-products-p {
+        width: 30px;
+        /*max-width: 100%;*/
+    }
+
+    #category-name-and-number-of-products-p > p {
+        text-align: left;
+        padding-top: 0px;
+        font-size: 14px;
+        /*padding-right: 80px;*/
+    }
+
+    /*#products{*/
+    /*    margin-right: 50px;*/
+    /*}*/
+    #products-div {
+        display: flex;
+        margin-top: 7rem;
+    }
+
+    #products-big-photo {
+        /*width: 700px;*/
+        /*margin-left: 25px;*/
+        margin-right: 1.2rem;
+    }
+
+    #products-big-photo > picture > img {
+        /*max-width: 100%;*/
+        width: 30vw;
+        height: auto;
+    }
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
+
+    /*----------------------------------------------------------*/
+    #section-2 {
+        margin-top: 7rem;
+    }
+
+<<<<<<< HEAD
 
 @media screen and (max-width: 767px){
     #category-name-and-number-of-products{
@@ -68,6 +140,28 @@ body{
         font-size: 13px;
         margin: 0;
         margin-top: 15px;
+=======
+    #products-div-2 {
+        /*width: 100%;*/
+        /*width: 1600px;*/
+        display: flex;
+        margin-top: 7rem;
+        /*margin-top: 40px;*/
+        /*padding-right: 200px;*/
+    }
+
+    #products-small-photo {
+        /*width: 400px;*/
+        /*margin-left: 25px;*/
+        margin-right: 1.2rem;
+    }
+
+    #products-small-photo > picture > img {
+        /*max-width: 100%;*/
+        width: 17.8vw;
+        height: auto;
+        /*margin-left: 20px;*/
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
     }
 
     #category-name-and-number-of-products-p{
@@ -75,6 +169,7 @@ body{
         /*max-width: 100%;*/
     }
 
+<<<<<<< HEAD
     #category-name-and-number-of-products-p > p{
         text-align: left;
         padding-top: 0px;
@@ -192,16 +287,69 @@ body{
 
 
 
+=======
+    #products-name-and-price {
+        /*margin-left: 20px;*/
+        text-align: left;
+    }
+
+    #products-name-and-price > h3 {
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    #products-name-and-price > span {
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+
+    #products-name-and-price-small {
+        /*margin-left: 20px;*/
+    }
+
+    #products-name-and-price-small > h3 {
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 17px;
+    }
+
+    #products-name-and-price-small > span {
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
 }
 
 
 
+<<<<<<< HEAD
 /*===============================================================================*/
 
 @media screen and (min-width: 1024px) {
     #category-name-and-number-of-products {
         /*width: 60%;*/
         width: 60vw;
+=======
+/*=======================================================================================*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        color: red;
+    }
+
+
+    #category-name-and-number-of-products{
+        width: 96vw;
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
         margin-top: 250px;
         display: flex;
         font-family: 'Source Code Pro', monospace;
@@ -212,6 +360,7 @@ body{
         justify-content: space-between;
     }
 
+<<<<<<< HEAD
     #category-name-and-number-of-products-h1 > h1 {
         font-size: 14px;
         margin: 0;
@@ -227,29 +376,71 @@ body{
         padding-top: 0px;
         font-size: 14px;
         /*padding-right: 80px;*/
+=======
+    /*#category-name-and-number-of-products-h1{*/
+    /*width: 80%;*/
+    /*}*/
+
+    #category-name-and-number-of-products-h1 > h1{
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 14px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #category-name-and-number-of-products-p{
+        width: 50px;
+        /*max-width: 100%;*/
+    }
+
+    #category-name-and-number-of-products-p > p{
+        text-align: left;
+        padding-top: 0px;
+        font-size: 14px;
+        padding-right: 80px;
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
     }
 
     /*#products{*/
     /*    margin-right: 50px;*/
     /*}*/
+<<<<<<< HEAD
     #products-div {
         display: flex;
         margin-top: 7rem;
     }
 
     #products-big-photo {
+=======
+
+    #products-div{
+        display: flex;
+        margin-top: 100px;
+    }
+
+    #products-big-photo{
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
         /*width: 700px;*/
         /*margin-left: 25px;*/
         margin-right: 1.2rem;
     }
 
+<<<<<<< HEAD
     #products-big-photo > picture > img {
         /*max-width: 100%;*/
         width: 30vw;
+=======
+    #products-big-photo > picture > img{
+        /*max-width: 100%;*/
+        width: 47vw;
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
         height: auto;
     }
 
     /*----------------------------------------------------------*/
+<<<<<<< HEAD
     #section-2 {
         margin-top: 7rem;
     }
@@ -259,23 +450,45 @@ body{
         /*width: 1600px;*/
         display: flex;
         margin-top: 7rem;
+=======
+
+    #section-2{
+        margin-top: 8rem;
+    }
+
+    #products-div-2{
+        /*width: 100%;*/
+        /*width: 1600px;*/
+        display: flex;
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
         /*margin-top: 40px;*/
         /*padding-right: 200px;*/
     }
 
+<<<<<<< HEAD
     #products-small-photo {
+=======
+    #products-small-photo{
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
         /*width: 400px;*/
         /*margin-left: 25px;*/
         margin-right: 1.2rem;
     }
 
+<<<<<<< HEAD
     #products-small-photo > picture > img {
         /*max-width: 100%;*/
         width: 17.6vw;
+=======
+    #products-small-photo > picture > img{
+        /*max-width: 100%;*/
+        width: 17.8vw;
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
         height: auto;
         /*margin-left: 20px;*/
     }
 
+<<<<<<< HEAD
     #products-div-2-mobile{
         display: flex;
     }
@@ -290,3 +503,52 @@ body{
 
 
 
+=======
+
+    #products-name-and-price{
+        /*margin-left: 20px;*/
+        text-align: left;
+    }
+
+    #products-name-and-price > h3{
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    #products-name-and-price > span{
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+
+    #products-name-and-price-small{
+        /*margin-left: 20px;*/
+    }
+
+    #products-name-and-price-small > h3{
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 17px;
+    }
+
+    #products-name-and-price-small > span{
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/*===============================================================================*/
+@media screen and (max-width: 767px){
+
+}
+>>>>>>> 918fc92ad7b85f5c02ab21228e5f621af3e47f7f
