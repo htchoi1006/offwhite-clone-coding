@@ -12,7 +12,8 @@ body{
 }
 
 .section1-div1{
-    margin-left: 0.9rem;
+    /*margin-left: 0.9rem;*/
+    margin-left: 10px;
     margin-top: 2rem;
 }
 
@@ -283,16 +284,18 @@ body{
         flex-direction: row-reverse;
         text-align: left;
         margin-bottom: 400px;
+        left: 0;
     }
 
     .main-div{
         position: sticky;
         top: 10rem;
+        left: 0;
     }
 
     .detail-pictures{
-        width: 48vw;
-        margin-right: 15rem;
+        width: 49vw;
+        margin-right: 10vw;
     }
 
     .detail-pictures > picture > img{
@@ -303,12 +306,8 @@ body{
     .section1 {
         width: 30vw;
         margin-top: 5rem;
-        /*position: fixed;*/
-        /*left: 0;*/
-        /*top: 0;*/
-        /*height: 460vw;*/
         height: auto;
-        margin-right: 20rem;
+        margin-right: 14rem;
     }
 
     .about-product{
@@ -414,7 +413,7 @@ body{
 
     .section1-div2{
         margin-top: 4rem;
-        margin-left: 0.9rem;
+        /*margin-left: 0.9rem;*/
     }
 
 
