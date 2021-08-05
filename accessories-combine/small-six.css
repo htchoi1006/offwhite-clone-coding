@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html,
+body{
+    width:100%;
+    /*overflow-x:hidden;*/
+}
+
+.section-2{
+    width: 75.6vw;
+    margin-top: 11rem;
+    padding-left: 19.2px;
+}
+
+.section-small-six{
+    width: 100%;
+}
+
+.small-image {
+    width: 100%;
+    /*height: 100%;*/
+    height: auto;
+}
+
+.ldiv {
+    display: flex;
+    width: 75.6vw;
+}
+.goodstext {
+    width: 11vw;
+}
+
+.miniimage-category{
+    font-family: 'Inconsolata', monospace;
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.miniimage {
+    width: 11.4vw;
+    /*height: 16vw;*/
+    height: auto;
+    overflow: hidden;
+}
+
+#miniimage{
+    margin-top: 2.3rem;
+}
+
+.miniimage-number{
+    font-family: 'Inconsolata', monospace;
+    font-size: 9px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.little {
+    margin-right: 1.2rem;
+}
+.goodsname {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 13px;
+}
+/*피씨버전*/
+@media all and (min-width: 1024px) {
+
+}
+/*테블릿버전*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .miniimage {
+        width: 35vw;
+        height: 49vw;
+    }
+    .goodstext {
+        width: 35vw;
+    }
+}
+/*모바일버전*/
+@media all and (max-width: 767px) {
+    .miniimage {
+        width: 31vw;
+        height: 41vw;
+    }
+    .goodstext {
+        width: 31vw;
+    }
+}
