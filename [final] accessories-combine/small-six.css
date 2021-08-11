@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+.section-2{
+    width: 75.6vw;
+    margin-top: 11rem;
+    /*padding-left: 19.2px;*/
+}
+
+.section-small-six{
+    width: 100%;
+}
+
+.small-image {
+    width: 100%;
+    /*height: 100%;*/
+    height: auto;
+}
+
+.ldiv {
+    display: flex;
+    width: 75.6vw;
+}
+.goodstext {
+    width: 11vw;
+}
+
+.miniimage-category{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 8.5px;
+    font-weight: 400;
+    color: black;
+}
+
+.miniimage-number{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 8.5px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.miniimage {
+    width: 11.4vw;
+    /*height: 16vw;*/
+    height: auto;
+    overflow: hidden;
+}
+
+#miniimage{
+    margin-top: 2.3rem;
+}
+
+
+.little {
+    margin-right: 1.2rem;
+}
+.goodsname {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 13px;
+}
+
+
+
+/*피씨버전*/
+@media all and (min-width: 1024px) {
+    #section2-category-name-and-number-of-products{
+        display: none;
+    }
+
+    .section-2{
+        margin-left: 0.7vw;
+    }
+}
+/*태블릿버전*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .ldiv {
+        width: 100vw;
+        /*display: flex;*/
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .ldiv::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+
+    .miniimage {
+        width: 35vw;
+        /*height: 49vw;*/
+        height: auto;
+    }
+
+    .miniimage-category{
+        display: none;
+    }
+
+    #miniimage{
+        margin-top: 0;
+    }
+
+    .miniimage-number{
+        display: none;
+    }
+
+    .goodstext {
+        width: 35vw;
+    }
+
+    .section-2{
+        /*width: 97.6vw;*/
+        /*padding-left: 19.2px;*/
+        /*padding-right: 19.2px;*/
+        margin: 0 auto;
+        width: 97.6vw;
+    }
+
+    #section2-category-name-and-number-of-products{
+        /*width: 98.9vw;*/
+        width: 100%;
+        margin-top: 11rem;
+        display: flex;
+        font-family: 'Source Code Pro', monospace;
+        /*font-size: 15px;*/
+        /*font-weight: 400;*/
+        /*margin-left: 25px;*/
+        /*padding-right: 50px;*/
+        justify-content: space-between;
+    }
+
+
+    #section2-category-name-and-number-of-products-h1 > h1{
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #section2-category-name-and-number-of-products-p{
+        width: 50px;
+        /*max-width: 100%;*/
+        text-align: right;
+        /*padding-right: 1.2rem;*/
+        padding-right: 0;
+    }
+
+    #section2-category-name-and-number-of-products-p > p{
+        /*text-align: left;*/
+        padding-top: 0px;
+        font-size: 13px;
+        /*padding-right: 80px;*/
+    }
+}
+/*모바일버전*/
+@media all and (max-width: 767px) {
+    .ldiv {
+        width: 100vw;
+        /*display: flex;*/
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .ldiv::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+
+    .section-2{
+        margin-left: 0.5rem;
+    }
+    .miniimage {
+        width: 31vw;
+        height: 41vw;
+    }
+    .goodstext {
+        width: 31vw;
+    }
+
+    .miniimage-category{
+        display: none;
+    }
+    .miniimage-number{
+        display: none;
+    }
+    #miniimage{
+        margin-top: 0;
+    }
+
+    #section2-category-name-and-number-of-products{
+        width: 98vw;
+        /*width: 100%;*/
+        margin-top: 11rem;
+        display: flex;
+        font-family: 'Source Code Pro', monospace;
+        /*font-size: 15px;*/
+        /*font-weight: 400;*/
+        /*margin-left: 25px;*/
+        /*padding-right: 50px;*/
+        justify-content: space-between;
+    }
+
+
+    #section2-category-name-and-number-of-products-h1 > h1{
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #section2-category-name-and-number-of-products-p{
+        width: 50px;
+        /*max-width: 100%;*/
+        text-align: right;
+        /*padding-right: 1.2rem;*/
+        padding-right: 0;
+    }
+
+    #section2-category-name-and-number-of-products-p > p{
+        /*text-align: left;*/
+        padding-top: 0px;
+        font-size: 13px;
+        /*padding-right: 80px;*/
+    }
+}

@@ -1,0 +1,104 @@
+/*피씨버전*/
+@media all and (min-width: 1024px) {
+    .section-4-all{
+        height: auto;
+    }
+
+    #menuBar-1 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inconsolata', monospace;
+        font-size: 12px;
+
+    }
+
+    #menu-1 {
+        display: block;
+        /*right: 0;*/
+        /*margin-right: 1vw;*/
+        margin-top: 10vw;
+        text-align: right;
+        /*position: fixed;*/
+        /*left: 15px;*/
+        /*top: 20px;*/
+        position: sticky;
+        top: 19rem;
+    }
+
+    #sortBy-1{
+        color: black;
+        padding: 7px 12px;
+        border-radius: 0.4rem;
+        display: block;
+    }
+
+    #filters-1{
+        color: black;
+        padding: 7px 12px;
+        border-radius: 0.4rem;
+        display: inline-block;
+        margin-top: 16px;
+    }
+
+    #filters-1 a {
+        color: black;
+        display: block;
+    }
+
+    #filters-1 > #fil1-1 > p {
+        margin: 0;
+        display: inline;
+    }
+
+    #filters-1 > #fil2-1 > p {
+        margin : 4px 0 0 0;
+    }
+
+    #sortBy-1 a {
+        color: black;
+    }
+
+    .submenu-1 {
+        display: none;
+        margin-top: 6px;
+    }
+    #sortBy-1:hover .submenu-1 {
+        display: block;
+        margin-left: 65.5px;
+    }
+    #sortBy-1:hover .v {
+        transform: rotate(180deg);
+    }
+
+    #menu-1 a{
+        text-decoration: none;
+    }
+
+    #menu-1 a:hover{
+        text-decoration: underline;
+    }
+
+    .plus {
+        font-size: 0;
+        display: inline;
+    }
+
+    .v {
+        font-size: 5px;
+        margin-left: 1px;
+    }
+
+
+    #fil2{
+        margin-top: 4px;
+    }
+
+    #menu > #filters > #fil2 {
+        text-decoration: underline;
+    }
+
+    #menu > #filters > #fil2:hover {
+        text-decoration: none;
+    }
+
+}

@@ -1,0 +1,78 @@
+
+
+#search{
+    z-index: 1;
+}
+
+.textStyle2 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.2em;
+}
+@keyframes cursor {
+    50% {border-color: transparent;}
+}
+#typingText {
+    border-right: 1px solid black;
+    animation: cursor 1s ease infinite;
+}
+#scroll {
+    height: 600vh;
+}
+#glasses {
+    border: 0;
+    height: 25px;
+    background-color: transparent;
+    /*cursor: url(imgs/cursor.html) 0 0, auto;*/
+}
+
+#glasses:hover{
+    /*cursor: url(images/cursor.html), auto;*/
+    cursor: url("images/cursor.png"), auto;
+}
+/*pc*/
+@media screen and (orientation:landscape) and (min-width: 1024px){
+    #search {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+    }
+    #glasses {
+        border: 0;
+        height: 25px;
+        background-color: transparent;
+        /*cursor: url(imgs/cursor.html) 0 0, auto;*/
+    }
+    #glasses:hover{
+        /*cursor: url("images/cursor.png"), auto;*/
+        cursor: url("images/cursor.png"), auto !important;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #search {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        left: 0;
+    }
+
+    /*body{*/
+    /*    margin-top: 0;*/
+    /*    !*margin-left: 0;*!*/
+    /*    margin-right: 0;*/
+    /*}*/
+}
+/*mobile*/
+@media screen and (max-width: 767px){
+    #search {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        left: 0;
+    }
+    /*body{*/
+    /*    margin-top: 0;*/
+    /*    margin-left: 1.2rem;*/
+    /*    margin-right: 0;*/
+    /*}*/
+}

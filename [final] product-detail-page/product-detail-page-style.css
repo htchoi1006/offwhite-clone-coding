@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
+
+
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /*margin-left: 1.2rem;*/
+}
+
+.section1-div1{
+    /*margin-left: 0.9rem;*/
+    margin-left: 10px;
+    margin-top: 2rem;
+}
+
+.section1-div1 > p{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section1-div1 > h1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.price{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+
+.product-colors-div1{
+    margin-top: 3rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.product-colors-div1 > p{
+    margin-bottom: 5px;
+}
+
+.type-of-colors{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 15%;
+    border: 1px solid;
+    display: flex;
+}
+
+.type-of-colors-div1{
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: rgb(224,224,224);
+    border-radius: 15%;
+    margin: auto;
+    cursor:pointer;
+}
+
+.product-sizes-div1{
+    margin-top: 3rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.product-sizes-div1 > p{
+    margin-bottom: 0;
+}
+
+.product-sizes-div2{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.product-sizes-div3{
+    display: table;
+    margin-right: 0.3rem;
+}
+
+.type-of-sizes{
+    background-color: rgb(224,224,224);
+    border-radius: 15%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    cursor:pointer;
+}
+
+.type-of-sizes:hover{
+    background-color: rgb(118,109,104);
+    color: white;
+}
+
+#type-of-sizes-big{
+    width: 2.5rem;
+    height: 2.6rem;
+}
+
+#type-of-sizes-medium{
+    width: 2.2rem;
+    height: 2.6rem;
+}
+
+#type-of-sizes-small{
+    width: 2rem;
+    height: 2.6rem;
+}
+
+
+.product-sizes-div4{
+    margin-top: 0.5rem;
+}
+
+.product-sizes-div4-button{
+    border: none;
+    background-color: white;
+    text-decoration: underline;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 0;
+    cursor:pointer;
+}
+
+.product-sizes-div4-button:hover{
+    text-decoration: none;
+}
+
+.confirm-action-div1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.confirm-action-div1 > p{
+    margin-bottom: 8px;
+}
+
+.confirm-action-div2{
+    display: flex;
+}
+
+.confirm-action-div2 > button > span{
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.confirm-action-div2-button1{
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    cursor:pointer;
+}
+
+.confirm-action-div2-button2{
+    border: none;
+    background-color: rgb(224,224,224);
+    border-radius: 6px;
+    width: 10rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    cursor:pointer;
+}
+
+.confirm-action-div2-button1:hover{
+    background-color: rgb(118,109,104);
+}
+
+.confirm-action-div2-button2:hover{
+    background-color: rgb(118,109,104);
+    color: white;
+}
+
+
+.section1-div2{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    margin-left: 0.9rem;
+}
+
+.more-information-ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.more-information-ul-li > button{
+    margin-bottom: 0.3rem;
+    border: none;
+    background-color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 0;
+    cursor:pointer;
+}
+
+.more-information-ul-li > button:hover{
+    text-decoration: underline;
+}
+
+.textStyle1{
+    /*font-family: 'Source Code Pro', monospace;*/
+    /*font-size: 11px;*/
+    font-family: 'Inconsolata', monospace;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .detail-pictures{
+        margin-left: 0;
+    }
+
+    .detail-pictures > picture{
+        width: 100vw;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .detail-pictures > picture > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .detail-pictures > picture::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+
+    .about-product{
+        font-family: 'Inconsolata', monospace;
+        font-size: 14px;
+        font-weight: 400;
+        width: 90vw;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .detail-pictures{
+        margin-left: 0;
+    }
+
+    .detail-pictures > picture{
+        width: 100vw;
+        display: flex;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .detail-pictures > picture > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .detail-pictures > picture::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+
+    .about-product{
+        font-family: 'Inconsolata', monospace;
+        font-size: 14px;
+        font-weight: 400;
+        width: 60vw;
+    }
+}
+
+
+/*pc mode*/
+@media screen and (min-width: 1024px) {
+    .section-product-page{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        margin-bottom: 400px;
+        left: 0;
+    }
+
+    .main-div{
+        position: sticky;
+        top: 10rem;
+        left: 0;
+    }
+
+    .detail-pictures{
+        width: 49vw;
+        margin-right: 10vw;
+    }
+
+    .detail-pictures > picture > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .section1 {
+        width: 30vw;
+        margin-top: 5rem;
+        height: auto;
+        margin-right: 14rem;
+    }
+
+    .about-product{
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .section1-div1 > p{
+        font-family: 'Source Code Pro', monospace;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .product-colors-div1{
+        margin-top: 2rem;
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    .type-of-colors{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 15%;
+        border: 1px solid;
+        display: flex;
+    }
+
+    .type-of-colors-div1{
+        width: 1.9rem;
+        height: 1.9rem;
+        background-color: rgb(224,224,224);
+        border-radius: 15%;
+        margin: auto;
+        cursor:pointer;
+    }
+
+    .product-sizes-div1{
+        margin-top: 2rem;
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .product-sizes-div4-button{
+        border: none;
+        background-color: white;
+        text-decoration: underline;
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+        padding-left: 0;
+        cursor:pointer;
+    }
+
+    .confirm-action-div1{
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+
+    .confirm-action-div2 > button > span{
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .confirm-action-div2-button1{
+        border: none;
+        border-radius: 6px;
+        background-color: black;
+        color: white;
+        width: 6rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+        cursor:pointer;
+    }
+
+    .confirm-action-div2-button2{
+        border: none;
+        background-color: rgb(224,224,224);
+        border-radius: 6px;
+        width: 9rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+        cursor:pointer;
+    }
+
+    .more-information-ul-li > button{
+        margin-bottom: 0.3rem;
+        border: none;
+        background-color: white;
+        font-family: 'Inconsolata', monospace;
+        font-size: 13px;
+        font-weight: 400;
+        padding-left: 0;
+        cursor:pointer;
+    }
+
+    .section1-div2{
+        margin-top: 4rem;
+        /*margin-left: 0.9rem;*/
+    }
+
+
+
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+
+.rightinfo {
+    position: fixed;
+    display: block;
+    top: 6rem;
+    right: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+    text-align: right;
+    /*margin-top: 1vw;*/
+    margin-right: 1vw;
+    z-index: 1;
+}
+.rightinfotext {
+    color: black;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.rightinfotext:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*피씨버전*/
+@media all and (min-width: 1024px) {
+
+}
+/*테블릿버전*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .rightinfo{
+        display: none;
+    }
+
+}
+/*모바일버전*/
+@media all and (max-width: 767px) {
+.rightinfo {
+    display: none;
+}
+}

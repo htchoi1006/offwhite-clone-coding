@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+/*데스크탑*/
+@media screen and (min-width: 1024px) {
+    .header{
+        height: auto;
+    }
+    #topMenu {
+        margin: 0 -10px 0 0.5rem;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 11px;
+        position: fixed;
+        top: 1rem;
+    }
+
+
+    .loadMenu {
+        position: relative;
+        /*float: left;*/
+    }
+
+    #topMenu ul {
+        padding: 0;
+    }
+
+    .categories {
+        display: flex;
+        list-style: none;
+    }
+
+
+    #shop {
+        padding: 0 6px 13px 0;
+    }
+
+    #shop a {
+        background-color: #000000CC;
+        color: white;
+        padding: 7px 14px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+
+    #shop a:hover {
+        background-color: #897F7B;
+    }
+
+    #imaginaryTV {
+        padding: 0 0 13px 0;
+    }
+
+    #imaginaryTV a {
+        background-color: #00FE01;
+        color: black;
+        padding: 7px 14px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    #imaginaryTV a:hover{
+        background-color: #897F7B;
+        color: white;
+    }
+
+    .rv {
+        font-size: 5px;
+        margin-left: 1px;
+        padding-bottom: 1px;
+        transition: all ease 0.5s;
+    }
+
+
+
+    .loadMenu {
+        display: flex;
+        list-style: none;
+    }
+
+    .tagli {
+        padding: 0 6px 6px 0;
+    }
+
+    #menu ul li .taga{
+        padding: 7px 14px;
+        background-color: #C6B99380;
+        color: black;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    /*NEW ARRIVALS는 마우스 가져다대도 밑줄 안 생겨서 나눔*/
+    #menu ul li .tag0{
+        padding: 7px 14px;
+        background-color: #C6B99380;
+        color: black;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    #menu ul li .taga:hover {
+        background-color: #E1E1E180;
+        text-decoration: underline;
+    }
+    #menu ul li .taga:hover .rv{
+        transform: rotate(180deg);
+    }
+
+    /*NEW ARRIVALS는 마우스 가져다대도 밑줄 안 생겨서 나눔*/
+    #menu ul li .tag0:hover {
+        background-color: #E1E1E180;
+    }
+    #menu ul li .tag0:hover .rv{
+        transform: rotate(180deg);
+    }
+
+
+
+    .dropdownMenu {
+        display: none;
+        background-color: #E1E1E180;
+        backdrop-filter: blur(1rem);
+        border-radius: 4px;
+        margin-top: 12px;
+        margin-right: 20px;
+        padding: 20px 0 0 20px;
+        /*position: static;*/
+        /*position: fixed;*/
+        width: calc(100vw - 3rem);
+        position: absolute;
+        left:0px;
+        top:13px;
+    }
+
+    /*#test2:hover + #na {*/
+    /*    display: flex;*/
+    /*}*/
+
+    #newArrivals:hover #na {
+        display: flex;
+    }
+    #shopMan:hover #sm {
+        display: flex;
+    }
+
+    #shopWoman:hover #sw {
+        display: flex;
+    }
+    #shopKids:hover #sk {
+        display: flex;
+    }
+    #homeWare:hover #hw {
+        display: flex;
+    }
+
+
+
+    .dropdownMenu ul {
+        width: 110px;
+        margin-top: 0;
+        margin-right: 30px;
+    }
+
+    .dropdownMenu li {
+        list-style: none;
+    }
+
+    .dropdownMenu ul li {
+        margin-bottom: 20px;
+    }
+
+    .dropdownMenu a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdownMenu a:hover {
+        text-decoration: underline;
+    }
+
+    /*#newArrivals a:hover #na{*/
+    /*    display: flex ;*/
+    /*}*/
+
+
+
+}
+
+/*테블릿*/
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+    #topMenu {
+        display: none;
+    }
+}
+
+
+/*모바일*/
+@media screen and (max-width: 767px) {
+    #topMenu {
+        display: none;
+    }
+}

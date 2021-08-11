@@ -1,0 +1,153 @@
+#products-name-and-price > h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#products-name-and-price > span {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#loadMore-section{
+    display: none;
+}
+
+
+
+
+/*태블릿*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .section-12{
+        margin-left: 0.5rem;
+    }
+
+    #section12-category-name-and-number-of-products{
+        width: 96vw;
+        margin-top: 20px;
+        display: flex;
+        font-family: 'Source Code Pro', monospace;
+        /*font-size: 15px;*/
+        /*font-weight: 400;*/
+        /*margin-left: 25px;*/
+        /*padding-right: 50px;*/
+        justify-content: space-between;
+    }
+
+
+    #section12-category-name-and-number-of-products-h1 > h1{
+        /*text-align: left;*/
+        /*width: 58%;*/
+        /*max-width: 100%;*/
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    #section12-category-name-and-number-of-products-p{
+        width: 50px;
+        /*max-width: 100%;*/
+    }
+
+    #section12-category-name-and-number-of-products-p > p{
+        text-align: right;
+        padding-top: 0px;
+        font-size: 12px;
+        /*padding-right: 80px;*/
+    }
+
+    .products-big-photo-category{
+        display: none;
+    }
+    .products-big-photo-number{
+        display: none;
+    }
+
+    #products{
+        margin-bottom: 1rem;
+    }
+
+    #products-div{
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    #products-big-photo{
+        /*width: 700px;*/
+        /*margin-left: 25px;*/
+        margin-right: 1.2rem;
+    }
+
+    #products-big-photo > picture > img{
+        /*max-width: 100%;*/
+        width: 47vw;
+        height: auto;
+    }
+
+
+
+}
+
+
+
+/*PC*/
+@media screen and (min-width: 1024px) {
+    .section-12{
+        margin-top: 11rem;
+        margin-left: 0.5rem;
+    }
+
+    #menuBar{
+        display: none;
+    }
+
+    #section12-category-name-and-number-of-products{
+        display: none;
+    }
+
+
+    .products-big-photo-category{
+        font-family: 'Source Code Pro', monospace;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .products-big-photo-number{
+        font-family: 'Source Code Pro', monospace;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: right;
+        margin: 10px 0;
+    }
+
+    /*#products{*/
+    /*    margin-right: 50px;*/
+    /*}*/
+    #products-div {
+        display: flex;
+        margin-top: 7rem;
+    }
+
+    #products-big-photo {
+        /*width: 700px;*/
+        /*margin-left: 25px;*/
+        margin-right: 1.2rem;
+    }
+
+    #products-big-photo > picture > img {
+        /*max-width: 100%;*/
+        width: 30vw;
+        height: auto;
+    }
+
+
+
+}

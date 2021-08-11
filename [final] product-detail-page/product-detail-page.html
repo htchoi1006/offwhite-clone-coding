@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product detail</title>
+    <link rel="stylesheet" href="product-detail-page-style.css" />
+    <link rel="stylesheet" href="TopMenu.css">
+    <link rel="stylesheet" href="right-menu.css">
+    <link rel="stylesheet" href="mobileMenu.css">
+    <link rel="stylesheet" href="Search.css">
+    <link rel="stylesheet" href="timecursor.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="time-cursor.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+<body>
+    <header class="header">
+        <section id="topMenu">
+            <div class="main">
+                <div>
+                    <nav>
+                        <ul class="categories">
+                            <li id="shop">
+                                <a href="#">SHOP</a>
+                            </li>
+                            <li id="imaginaryTV">
+                                <a href="#">IMAGINARY TV</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <nav id="menu">
+                        <ul class="loadMenu">
+                            <li class="tagli" id="newArrivals">
+                                <a class="tag0" href="#" id="test2">NEW ARRIVALS
+                                    <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="rv">
+                                        <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <div class="dropdownMenu" id="na">
+                                    <ul>
+                                        <li><a href="#">MEN FW2021</a></li>
+                                        <li><a href="#">Clothing</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                        <li><a href="#">Shoes</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">WOMEN FW2021</a></li>
+                                        <li><a href="#">Clothing</a></li>
+                                        <li><a href="#">Activewear</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                        <li><a href="#">Shoes</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Jewelry</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">SPECIAL ITEMS</a></li>
+                                        <li><a href="#">Nike x Off-<br>White™</a></li>
+                                        <li><a href="#">pioneer DJ c/o<br>Off-White™<br>Collaboration</a></li>
+                                        <li><a href="#">OFFKAT<br>Collection</a></li>
+                                        <li><a href="#">Off-White™ X<br>Theophilus<br>London</a></li>
+                                        <li><a href="#">Men's Off-White™<br>"Sunglasses"<br>Collection</a></li>
+                                        <li><a href="#">Women's Off-<br>White™<br>"Sunglasses"<br>Collection</a></li>
+                                        <li><a href="#">Off Active<br>Women's<br>Collection</a></li>
+                                        <li><a href="#">Off Active Men's<br>Collection</a></li>
+                                        <li><a href="#">I Support Black<br>Women</a></li>
+                                        <li><a href="#">The Burrow Bag</a></li>
+                                        <li><a href="#">Homeware<br>Exclusive</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="tagli" id="shopMan">
+                                <a class="taga" href="#">SHOP MAN
+                                    <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="rv">
+                                        <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <div class="dropdownMenu" id="sm">
+                                    <ul>
+                                        <li><a href="#">CLOTHING</a></li>
+                                        <li><a href="#">Denim</a></li>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Pants</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Shorts</a></li>
+                                        <li><a href="#">Sweatshirts &<br>Knitwear</a></li>
+                                        <li><a href="#">Swimwear</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                        <li><a href="#">Underwear &<br>Socks</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">ACTIVEWEAR</a></li>
+                                        <li><a href="#">Performance<br>Accessories</a></li>
+                                        <li><a href="#">Performance Tops</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">BAGS</a></li>
+                                        <li><a href="#">Backpacks</a></li>
+                                        <li><a href="#">Belt Bags</a></li>
+                                        <li><a href="#">Clutch Bags</a></li>
+                                        <li><a href="#">Luggage &<br>Holdalls</a></li>
+                                        <li><a href="#">Shoulder Bags</a></li>
+                                        <li><a href="#">Tote Bags</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Shoes</a></li>
+                                        <li><a href="#">Boots</a></li>
+                                        <li><a href="#">Flip Flop &<br>Slides</a></li>
+                                        <li><a href="#">Sneakers</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">ACCESSORIES</a></li>
+                                        <li><a href="#">Belts</a></li>
+                                        <li><a href="#">Masks</a></li>
+                                        <li><a href="#">Hats</a></li>
+                                        <li><a href="#">Keyrings &<br>Chains</a></li>
+                                        <li><a href="#">Scarves</a></li>
+                                        <li><a href="#">Technology Items</a></li>
+                                        <li><a href="#">Wallets &<br>Cardholders</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">JEWELRY</a></li>
+                                        <li><a href="#">Bracelets</a></li>
+                                        <li><a href="#">Necklaces</a></li>
+                                        <li><a href="#">Rings</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">SUNGLASSES</a></li>
+                                        <li><a href="#">sunglasses</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="tagli" id="shopWoman">
+                                <a class="taga" href="#">SHOP WOMAN
+                                    <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="rv">
+                                        <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <div class="dropdownMenu" id="sw">
+                                    <ul>
+                                        <li><a href="#">CLOTHING</a></li>
+                                        <li><a href="#">Denim</a></li>
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Jackets</a></li>
+                                        <li><a href="#">Knitwear</a></li>
+                                        <li><a href="#">Pants</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Shorts</a></li>
+                                        <li><a href="#">Skirts</a></li>
+                                        <li><a href="#">Sweatshirts &<br>Knitwear</a></li>
+                                        <li><a href="#">Swimwear</a></li>
+                                        <li><a href="#">Underwear &<br>Socks</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">ACTIVEWEAR</a></li>
+                                        <li><a href="#">Performance<br>Accessories</a></li>
+                                        <li><a href="#">Performance<br>Pants</a></li>
+                                        <li><a href="#">Performance Tops</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">BAGS</a></li>
+                                        <li><a href="#">Backpacks</a></li>
+                                        <li><a href="#">Bag Accessories</a></li>
+                                        <li><a href="#">Belt Bags</a></li>
+                                        <li><a href="#">Mini Bags</a></li>
+                                        <li><a href="#">Shoulder Bags</a></li>
+                                        <li><a href="#">Tote Bags</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Shoes</a></li>
+                                        <li><a href="#">Boots</a></li>
+                                        <li><a href="#">Espadrilles</a></li>
+                                        <li><a href="#">Flip Flop &<br>Slides</a></li>
+                                        <li><a href="#">Mules</a></li>
+                                        <li><a href="#">Sandals</a></li>
+                                        <li><a href="#">Sneakers</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">ACCESSORIES</a></li>
+                                        <li><a href="#">Belts</a></li>
+                                        <li><a href="#">Hats</a></li>
+                                        <li><a href="#">Keyrings &<br>Chains</a></li>
+                                        <li><a href="#">Masks</a></li>
+                                        <li><a href="#">Scarves</a></li>
+                                        <li><a href="#">Technology items</a></li>
+                                        <li><a href="#">Wallets & Purses</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">JEWELRY</a></li>
+                                        <li><a href="#">Bracelets</a></li>
+                                        <li><a href="#">Earrings</a></li>
+                                        <li><a href="#">Necklaces</a></li>
+                                        <li><a href="#">Rings</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">SUNGLASSES</a></li>
+                                        <li><a href="#">sunglasses</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="tagli" id="shopKids">
+                                <a class="taga" href="#">SHOP KIDS
+                                    <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="rv">
+                                        <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <div class="dropdownMenu" id="sk">
+                                    <ul>
+                                        <li><a href="#">BOYS</a></li>
+                                        <li><a href="#">Boy Clothing</a></li>
+                                        <li><a href="#">Boy Shoes</a></li>
+                                        <li><a href="#">Boy Accessories</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">GIRLS</a></li>
+                                        <li><a href="#">Girl Clothing</a></li>
+                                        <li><a href="#">Girl Shoes</a></li>
+                                        <li><a href="#">Girl Accessories</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="tagli">
+                                <a class="taga" href="#" onclick="moveSpecialItems()">SPECIAL ITEMS</a>
+                                <div class="dropdownMenu" id="si">
+                                </div>
+                            </li>
+                            <li class="tagli" id="homeWare">
+                                <a class="taga" href="#">HOMEWARE
+                                    <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="rv">
+                                        <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <div class="dropdownMenu" id="hw">
+                                    <ul>
+                                        <li><a href="#">HOMEWARE</a></li>
+                                        <li><a href="#" onclick="moveAccessories()">ALL Accessories</a></li>
+                                        <li><a href="#">Bath</a></li>
+                                        <li><a href="#">Beauty & Grooming</a></li>
+                                        <li><a href="#">Books & Stationery</a></li>
+                                        <li><a href="#">Bedding</a></li>
+                                        <li><a href="#">Decorative & Accessories</a></li>
+                                        <li><a href="#">Furniture</a></li>
+                                        <li><a href="#">Soft Furnishings</a></li>
+                                        <li><a href="#">Tableware</a></li>
+                                        <li><a href="#">Umbrellas</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!--        <section class="search-section">-->
+        <!--            <div id="search">-->
+        <!--                <span id="typingText" class="textStyle2"></span>-->
+        <!--                <button id="glasses">-->
+        <!--                    <svg viewBox="0 0 15 15" width="1em" height="1em" class="css-1x3tpp e53abd33"><path d="M9.763 8.98c-.19.25-.41.469-.655.653-1.096.821-2.54.926-3.793.531-2.256-.71-4.131-3.5-3.267-6.088.834-2.5 3.7-3.191 5.794-2.307 2.501 1.055 3.717 4.846 1.92 7.211M5.513.054a6.87 6.87 0 0 0-2.773.984 5.973 5.973 0 0 0-1.488 1.314C-.097 4.032-.398 6.585.56 8.562a5.26 5.26 0 0 0 1.102 1.507c1.627 1.538 3.902 1.98 5.976 1.595.554-.103 1.086-.343 1.658-.345.588-.002.98.313 1.407.691.37.301.704.667 1.017 1.028.193.222.4.456.565.71.17.261.258.554.402.827a.86.86 0 0 0 .349.372c.29.15.602-.044.816-.245.32-.3.634-.625.913-.962.17-.205.31-.506.192-.776-.12-.271-.41-.396-.663-.496a2.757 2.757 0 0 1-.751-.426c-.512-.412-.936-.922-1.393-1.394-.396-.409-.696-.838-.666-1.444.022-.424.17-.83.315-1.229.35-.971.474-2.02.355-3.053-.117-1.01-.477-1.993-1.1-2.786C9.713.428 7.5-.2 5.513.054" fill="currentColor" fill-rule="evenodd"></path></svg>-->
+        <!--                </button>-->
+        <!--            </div>-->
+        <!--        </section>-->
+        <!--        <script src="Search.js"></script>-->
+        <section class="right-menu">
+            <div class="rightinfo">
+                <p class="rightinfotext" href="#">LOG IN</p>
+                <p class="rightinfotext" href="#">WISHLIST [0]</p>
+                <p class="rightinfotext" href="#">SHOPPING BAG [0]</p>
+                <p class="rightinfotext" href="#">CUSTOMER SEVICE</p>
+                <p class="rightinfotext" href="#">NEWSLETTER</p>
+                <p class="rightinfotext" href="#">KR ￦ / ENGLISH</p>
+            </div>
+        </section>
+    </header>
+    <section id = "MenuBar0">
+        <div class="top0">
+            <div class="top1">
+                <!--            아래에 위치랑 시간 코드 또 있음-->
+                <p class="location">
+                    SHOP FEED
+                </p>
+                <p class="nowTime">
+                    12:37AM
+                </p>
+                <div class="backSlash">
+                    <svg viewBox="0 0 5 10" width="0.5em" height="1em" class="css-15629ab etum40z2">
+                        <path d="M4.62 9.878L.792 0H0l3.828 9.878z" fill="currentColor" fill-rule="nonzero">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="search-section">
+        <div id="search">
+            <span id="typingText" class="textStyle2"></span>
+            <button id="glasses">
+                <svg viewBox="0 0 15 15" width="1em" height="1em" class="css-1x3tpp e53abd33"><path d="M9.763 8.98c-.19.25-.41.469-.655.653-1.096.821-2.54.926-3.793.531-2.256-.71-4.131-3.5-3.267-6.088.834-2.5 3.7-3.191 5.794-2.307 2.501 1.055 3.717 4.846 1.92 7.211M5.513.054a6.87 6.87 0 0 0-2.773.984 5.973 5.973 0 0 0-1.488 1.314C-.097 4.032-.398 6.585.56 8.562a5.26 5.26 0 0 0 1.102 1.507c1.627 1.538 3.902 1.98 5.976 1.595.554-.103 1.086-.343 1.658-.345.588-.002.98.313 1.407.691.37.301.704.667 1.017 1.028.193.222.4.456.565.71.17.261.258.554.402.827a.86.86 0 0 0 .349.372c.29.15.602-.044.816-.245.32-.3.634-.625.913-.962.17-.205.31-.506.192-.776-.12-.271-.41-.396-.663-.496a2.757 2.757 0 0 1-.751-.426c-.512-.412-.936-.922-1.393-1.394-.396-.409-.696-.838-.666-1.444.022-.424.17-.83.315-1.229.35-.971.474-2.02.355-3.053-.117-1.01-.477-1.993-1.1-2.786C9.713.428 7.5-.2 5.513.054" fill="currentColor" fill-rule="evenodd"></path></svg>
+            </button>
+        </div>
+    </section>
+    <script src="Search.js"></script>
+    <section id="MenuBar0">
+        <nav id="mbw">
+            <button id="menuBtn">
+                <span>
+                    MENU
+                </span>
+            </button>
+            <a href="#" class="mobileMenu">
+                BAG [0]
+            </a>
+            <a href="#" class="mobileMenu">
+                WISHLIST [0]
+            </a>
+        </nav>
+
+        <div id="overlay">
+            <div class="top0">
+                <div class="top1">
+                    <!--                위에 위치랑 시간 코드 또 있음-->
+                    <p class="location">
+                        SHOP FEED
+                    </p>
+                    <p class="nowTime">
+                        12:37AM
+                    </p>
+                    <div class="backSlash">
+                        <svg viewBox="0 0 5 10" width="0.5em" height="1em" class="css-15629ab etum40z2">
+                            <path d="M4.62 9.878L.792 0H0l3.828 9.878z" fill="currentColor" fill-rule="nonzero">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <ul id="ci">
+                    <li id="shop1">
+                        <a href="#">SHOP</a>
+                    </li>
+                    <li id="imaginaryTV1">
+                        <a href="#">IMAGINARY TV</a>
+                    </li>
+                    <button class="menuX">
+                        <span>X</span>
+                    </button>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="btnC">
+                    <li>
+                        <button class="btn" id="newArrivalsBtn">
+                            <span>
+                                NEW ARRIVALS
+                                <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="more">
+                                    <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span>
+                                SHOP MAN
+                                <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="more">
+                                    <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span>
+                                SHOP WOMAN
+                                <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="more">
+                                    <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span>
+                                SHOP KIDS
+                                <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="more">
+                                    <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span>
+                                SPECIAL ITEMS
+                            </span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn">
+                            <span>
+                                HOMEWARE
+                                <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="more">
+                                    <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                                    </path>
+                                </svg>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!--    NEW ARRIVALS 창-->
+
+
+        <div class="callTag" id="tagNewArrivals">
+            <div class="top0">
+                <div class="top1">
+                    <!--                위에 위치랑 시간 코드 또 있음-->
+                    <p class="location">
+                        SHOP FEED
+                    </p>
+                    <p class="nowTime">
+                        12:37AM
+                    </p>
+                    <div class="backSlash">
+                        <svg viewBox="0 0 5 10" width="0.5em" height="1em" class="css-15629ab etum40z2">
+                            <path d="M4.62 9.878L.792 0H0l3.828 9.878z" fill="currentColor" fill-rule="nonzero">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="text0">
+                <button class="backBtn">
+                    <svg viewBox="0 0 6 4" width="1.5em" height="1em" class="back">
+                        <path d="M5.27 0L2.999 2.509.729 0 0 .684 2.999 4l3-3.316z" fill="currentColor" fill-rule="evenodd">
+                        </path>
+                    </svg>
+                </button>
+                <span class="where">
+                    NEW ARRIVALS
+                </span>
+                <button class="menuX">
+                    <span>X</span>
+                </button>
+            </div>
+            <ul class="categories1" id="newArrivalsCategories">
+                <li>
+                    <button class="callBtn" id="menFw2021Btn">
+                        <span>
+                            MEN FW2021
+                        </span>
+                    </button>
+                    <ul class="subcategory" id="menFw2021">
+                        <li><a href="#">ALL MEN FW2021</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="callBtn" id="womenFw2021Btn">
+                        <span>
+                            WOMEN FW2021
+                        </span>
+                    </button>
+                    <ul class="subcategory" id="womenFw2021">
+                        <li><a href="#">ALL WOMEN FW2021</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Activewear</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="callBtn" id="specialItemsBtn">
+                        <span>
+                            SPECIAL ITEMS
+                        </span>
+                    </button>
+                    <ul class="subcategory" id="specialItems">
+                        <li><a href="#">ALL SPECIAL ITEMS</a></li>
+                        <li><a href="#">Nike x Off-White™</a></li>
+                        <li><a href="#">pioneer DJ c/o Off-White™ Collaboration</a></li>
+                        <li><a href="#">OFFKAT Collection</a></li>
+                        <li><a href="#">Off-White™ X Theophilus London</a></li>
+                        <li><a href="#">Men's Off-White™ "Sunglasses" Collection</a></li>
+                        <li><a href="#">Women's Off-White™ "Sunglasses" Collection</a></li>
+                        <li><a href="#">Off ActiveWomen's Collection</a></li>
+                        <li><a href="#">Off Active Men's Collection</a></li>
+                        <li><a href="#">I Support BlackWomen</a></li>
+                        <li><a href="#">The Burrow Bag</a></li>
+                        <li><a href="#">Homeware Exclusive</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <script>
+
+
+            document.getElementById("menuBtn").addEventListener("click", callCategories);
+            function callCategories(){
+                document.getElementById("overlay").style.display = "block";
+            }
+
+            Array.from(document.getElementsByClassName("menuX")).forEach(
+                function (element, index, array) {
+                    element.addEventListener('click', exit);
+                }
+            )
+            function exit(){
+                document.getElementById("overlay").style.display = "none";
+                document.getElementById("tagNewArrivals").style.display = "none";
+                document.getElementById("overlay").style.display = "none";
+                document.getElementById("overlay").style.display = "none";
+            }
+
+
+            document.getElementById("menFw2021Btn").addEventListener("click", callMenFw2021);
+            function callMenFw2021(){
+                if (document.getElementById("menFw2021").style.display == "none"){
+                    document.getElementById("newArrivalsCategories").style.display = "block";
+                    document.getElementById("menFw2021").style.display = "block";
+                }
+                else {
+                    document.getElementById("menFw2021").style.display = "none";
+                }
+            }
+
+            document.getElementById("newArrivalsBtn").addEventListener("click", callNewArrivals);
+            function callNewArrivals(){
+                document.getElementById("overlay").style.display = "none";
+                document.getElementById("tagNewArrivals").style.display = "block";
+
+            }
+
+            Array.from(document.getElementsByClassName("backBtn")).forEach(
+                function (element, index, array) {
+                    element.addEventListener('click', exit);
+                    element.addEventListener('click', callCategories)
+                }
+            )
+        </script>
+    </section>
+    <section class="section-product-page">
+        <div class="detail-pictures">
+            <picture>
+                <img src="images/detail1.jpeg">
+                <img src="images/detail2.jpeg">
+                <img src="images/detail3.jpeg">
+                <img src="images/detail4.jpeg">
+                <img src="images/detail5.jpeg">
+                <img src="images/detail6.jpeg">
+                <img src="images/detail7.jpeg">
+                <img src="images/detail8.jpeg">
+            </picture>
+        </div>
+        <section class="section1">
+            <div class="main-div">
+                <div class="section1-div1">
+                    <p>NEW IN</p>
+                    <h1>Degradé Arrows S/S T-Shirt</h1>
+                    <div class="price">₩423,000</div>
+                    <div class="about-product">
+                        <p>Short sleeves oversized T-Shirt in white featuring Off logo on the front.
+                            Degraded arrows printed on the back in black. Crewneck collar.</p>
+                    </div>
+                    <div class="product-colors">
+                        <div class="product-colors-div1">
+<!--                            <p>I’VE FOUND 3 COLORS OF THIS STYLE:</p>-->
+                            <p class="textStyle1" id="typing_color"></p>
+                        </div>
+                        <div class="type-of-colors">
+                            <div class="type-of-colors-div1"></div>
+                        </div>
+                    </div>
+                    <div class="product-sizes">
+                        <div class="product-sizes-div1">
+<!--                            <p>I’VE FOUND THESE SIZES FOR THIS PRODUCT:</p>-->
+                            <p class="textStyle1" id="typing_size"></p>
+                        </div>
+                        <div class="product-sizes-div2">
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-big">XXS</div>
+                            </div>
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-medium">XS</div>
+                            </div>
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-small">S</div>
+                            </div>
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-small">M</div>
+                            </div>
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-small">L</div>
+                            </div>
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-medium">XL</div>
+                            </div>
+                            <div class="product-sizes-div3">
+                                <div class="type-of-sizes" id="type-of-sizes-big">XXL</div>
+                            </div>
+                        </div>
+                        <div class="product-sizes-div4">
+                            <button class="product-sizes-div4-button">
+                                <span>Size Help</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="confirm-action">
+                        <div class="confirm-action-div1">
+<!--                            <p>CONFIRM YOUR ACTION:</p>-->
+                            <p class="textStyle1" id="typing_action"></p>
+                        </div>
+                        <div class="confirm-action-div2">
+                            <button class="confirm-action-div2-button1">
+                                <span>ADD TO BAG</span>
+                            </button>
+                            <button class="confirm-action-div2-button2">
+                                <span>SAVE TO WISHLIST</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section1-div2">
+                    <ul class="more-information-ul">
+                        <li class="more-information-ul-li">
+                            <button>PRODUCT DETAILS</button>
+                        </li>
+                        <li class="more-information-ul-li">
+                            <button>SHIPPING & RETURNS</button>
+                        </li>
+                        <li class="more-information-ul-li">
+                            <button>PAYMENT METHODS</button>
+                        </li>
+                        <li class="more-information-ul-li">
+                            <button>HELP AND CONTACT</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="section-time-cursor">
+        <div class="shopfeed">
+            <h class="sftext">SHOP FEED</h>
+            <div class="time">
+                <script>
+                    let today = new Date();
+                    let hours = today.getHours(); // 시
+                    let minutes = today.getMinutes();
+                    document.write(formatAMPM(new Date));
+                </script>
+            </div>
+            <div class="cursor">
+                <div id='result' style='position:absolute;'></div>
+                <script type='text/javascript'>
+                    if ( document.addEventListener ) {
+                        document.addEventListener("mousemove",resultFun,false);
+                    } else if ( document.attachEvent ) {
+                        document.attachEvent("onmousemove",resultFun);
+                    } else {
+                        document.onmousemove = resultFun;
+                    }
+                    function resultFun(x) {
+                        var xY = x.clientX +  " / "  + x.clientY ;
+                        var positionLeft = x.clientX;
+                        var positionTop = x.clientY;
+                        document.getElementById('result').innerHTML = xY;
+                    }
+                </script>
+            </div>
+            <h class="slash">＼</h>
+        </div>
+    </section>
+<script src="Typing.js"></script>
+</body>
+</html>

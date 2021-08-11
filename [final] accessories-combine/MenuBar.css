@@ -1,0 +1,273 @@
+/*모바일*/
+@media screen and (max-width: 767px) {
+    .body-section{
+        height: auto;
+    }
+    /*#menuBar {*/
+    /*    margin: 0;*/
+    /*    padding: 0;*/
+    /*    font-family: 'Source Code Pro', monospace;*/
+    /*    font-size: 12px;*/
+    /*}*/
+    #menuBar {
+        margin: 200px 0 0 0;
+        padding: 0;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 12px;
+        position: sticky;
+        top: 1rem;
+    }
+
+
+    /*#menu {*/
+    /*    position: fixed;*/
+    /*    left: 1.2rem;*/
+    /*    top: 20px;*/
+    /*}*/
+
+    #sortBy{
+        width: 10rem;
+        color: black;
+        background-color: #E1E1E180;
+        backdrop-filter: blur(1rem);
+        padding: 7px 12px;
+        border-radius: 0.4rem;
+        display: block;
+    }
+
+    /*#sortBy{*/
+    /*    color: black;*/
+    /*    background-color: #E1E1E180;*/
+    /*    backdrop-filter: blur(1rem);*/
+    /*    padding: 7px 12px;*/
+    /*    border-radius: 0.4rem;*/
+    /*    display: block;*/
+    /*}*/
+
+    #filters{
+        color: black;
+        background-color: #E1E1E180;
+        backdrop-filter: blur(1rem);
+        padding: 7px 12px;
+        border-radius: 0.4rem;
+        display: inline-block;
+        margin-top: 16px;
+    }
+
+    #filters a {
+        color: black;
+        display: block;
+    }
+
+    /*#filters > #fil1 > p {*/
+    /*    */
+    /*}*/
+
+    #filters > #fil1 > p {
+        margin: 0;
+        display: inline;
+    }
+
+    #filters > #fil2 > p {
+        margin : 4px 0 0 0;
+    }
+
+    #sortBy a {
+        color: black;
+    }
+
+    .submenu {
+        display: none;
+        margin-top: 6px;
+    }
+
+
+    /*마우스 갖다 대면 추가항목 생김(바로 윗 코드)*/
+    #sortBy:hover .submenu {
+        display: block;
+        margin-left: 65.5px;
+    }
+    /*화살표도 돌아감~*/
+    #sortBy:hover .v {
+        transform: rotate(180deg);
+    }
+
+    /*SORTBY 마우스 가져다대면 FILTERS가 사라져야되는데 작동을 안 함 ㅜ*/
+    /*#manu > #sortBy:hover #filters{*/
+    /*    display: none;*/
+    /*}*/
+
+    /*각 항목들 처음에는 밑줄 없고*/
+    #menu a{
+        text-decoration: none;
+    }
+
+    /*마우스 가져다 대면 밑줄 생김*/
+    #menu a:hover{
+        text-decoration: underline;
+    }
+
+    .plus {
+        font-size: 0;
+        display: inline;
+    }
+
+    .v {
+        font-size: 5px;
+        margin-left: 1px;
+    }
+
+
+    #fil2{
+        margin-top: 4px;
+    }
+
+    /*CLEAR ALL 처음에는 밑줄 있고*/
+    #menu > #filters > #fil2 {
+        text-decoration: underline;
+    }
+
+    /*마우스 갖다대면 사라짐*/
+    #menu > #filters > #fil2:hover {
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*테블릿*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .body-section{
+        height: auto;
+    }
+
+    #menuBar {
+        margin: 200px 0 0 0;
+        padding: 0;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 12px;
+        position: sticky;
+        top: 1rem;
+    }
+
+
+    #menu {
+        /*position: sticky;*/
+        /*left: 15px;*/
+        /*top: 4rem;*/
+    }
+
+    #sortBy{
+        width: 10rem;
+        color: black;
+        background-color: #E1E1E180;
+        backdrop-filter: blur(1rem);
+        padding: 7px 12px;
+        border-radius: 0.4rem;
+        display: block;
+    }
+
+    #filters{
+        color: black;
+        background-color: #E1E1E180;
+        backdrop-filter: blur(1rem);
+        padding: 7px 12px;
+        border-radius: 0.4rem;
+        display: inline-block;
+        margin-top: 16px;
+    }
+
+    #filters a {
+        color: black;
+        display: block;
+    }
+
+    /*#filters > #fil1 > p {*/
+    /*    */
+    /*}*/
+
+    #filters > #fil1 > p {
+        margin: 0;
+        display: inline;
+    }
+
+    #filters > #fil2 > p {
+        margin : 4px 0 0 0;
+    }
+
+    #sortBy a {
+        color: black;
+    }
+
+    .submenu {
+        display: none;
+        margin-top: 6px;
+    }
+
+    #sortBy:hover{
+        width: 12rem;
+        margin-bottom: 10px;
+    }
+
+    /*마우스 갖다 대면 추가항목 생김(바로 윗 코드)*/
+    #sortBy:hover .submenu {
+        display: block;
+        margin-left: 65.5px;
+    }
+    /*화살표도 돌아감~*/
+    #sortBy:hover .v {
+        transform: rotate(180deg);
+    }
+
+    /*SORTBY 마우스 가져다대면 FILTERS가 사라져야되는데 작동을 안 함 ㅜ*/
+    /*#manu > #sortBy:hover #filters{*/
+    /*    display: none;*/
+    /*}*/
+
+    /*각 항목들 처음에는 밑줄 없고*/
+    #menu a{
+        text-decoration: none;
+    }
+
+    /*마우스 가져다 대면 밑줄 생김*/
+    #menu a:hover{
+        text-decoration: underline;
+    }
+
+    .plus {
+        font-size: 0;
+        display: inline;
+    }
+
+    .v {
+        font-size: 5px;
+        margin-left: 1px;
+    }
+
+
+    #fil2{
+        margin-top: 4px;
+    }
+
+    /*CLEAR ALL 처음에는 밑줄 있고*/
+    #menu > #filters > #fil2 {
+        text-decoration: underline;
+    }
+
+    /*마우스 갖다대면 사라짐*/
+    #menu > #filters > #fil2:hover {
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+
